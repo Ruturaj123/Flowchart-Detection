@@ -15,10 +15,6 @@ sys.path.append("models/research/object_detection/")
 from utils import label_map_util
 from utils import visualization_utils as vis_util
 
-flags = tf.app.flags
-flags.DEFINE_string('test_image', '', 'Name of the image to be processed.')
-FLAGS = flags.FLAGS
-
 class FlowchartDetection:
 
 	def __init__(self, IMAGE_NAME, MODEL_NAME='inference_graph'):
