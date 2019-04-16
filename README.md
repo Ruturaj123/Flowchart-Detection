@@ -12,6 +12,8 @@ I have used the Faster-RCNN Inceptionv2 model for detecting the flowcharts.
 
 ![Output](flowchart.png?raw=true)
 
+![Screenshot_20190416_085315](https://user-images.githubusercontent.com/25198226/56179977-345bd200-6025-11e9-8c0f-de8d034388ac.png)
+![Screenshot_20190416_085356](https://user-images.githubusercontent.com/25198226/56179978-345bd200-6025-11e9-86e5-1261cd8e16d3.png)
 
 ### Running Locally
 * Install the [Tensorflow Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
