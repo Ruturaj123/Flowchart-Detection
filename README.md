@@ -2,7 +2,7 @@
 Detecting hand drawn flowcharts using Tensorflow Object Detection API
 
 
-This repository uses Tensorflow Object Detecttion API for detecting hand drawn flowcharts.
+This repository uses Tensorflow Object Detection API for detecting hand drawn flowcharts.
 The dataset images are located in the folder `models/research/object_detection/images/test`
 
 
@@ -25,6 +25,6 @@ I have used the Faster-RCNN Inceptionv2 model for detecting the flowcharts.
   #From Flowchart-Detection/
   python Object_detection_image.py        (#You can set any input image of your choice located in models/research/object_detection/images/test inside this script)
   ```
-* Coordinates of the bounding boxes will be stores in coordinates.json
+* Coordinates of the bounding boxes will be stored in coordinates.json
 
 **NOTE:** OpenCV is needed for displaying the image. It can be installed using `pip install opencv-python`
